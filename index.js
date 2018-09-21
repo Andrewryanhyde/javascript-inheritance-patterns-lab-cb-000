@@ -6,3 +6,9 @@ function Point(x, y) {
 function Side(length) {
   this.length = length 
 }
+
+Point.prototype.toString = function() {
+  var a = this.x.toString(); 
+  var b = this.y.toString();
+  return (/a,\s?b/);
+}
