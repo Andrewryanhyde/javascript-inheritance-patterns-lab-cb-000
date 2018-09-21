@@ -110,5 +110,3 @@ Square.prototype.listProperties = function() {
     }
   }
 };
-
-
